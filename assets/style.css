@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+}
+.header {
+    width: 850px;
+    height:300px;
+    background-color: #4267B2;
+    align-content: center;
+}
+
+.heading {
+    width: 850px;
+    height:75px;
+    border: 1px solid black;
+}
+.profilepicture{
+    width: 200px;
+    height: 200px;
+    background-color: #4267B2;
+    border: 1px solid black;
+    
+    top: -325px;
+    left:20px;
+}
+
+.name {
+    width:200px;
+    height: 80px;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    
+    top: -490px;
+    left: 225px;
+}
+
+.headertext li{
+    list-style-type: none;
+    font-family: sans-serif;
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+     
+    
+    top: -67px;
+    left: 190px;
+    
+}
+.headertext:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.selected{
+    text-decoration: underline;
+    
+}
+
+.headertext li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.buttons{
+    top:-185px;
+    left: 625px;
+    letter-spacing: -80px;
+    padding: 0px;
+}
+
+
+.likebutton{
+    top:-164px;
+    left: 540px;
+
+}
